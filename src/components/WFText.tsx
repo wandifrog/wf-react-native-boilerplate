@@ -2,7 +2,7 @@ import React from 'react'
 import { Text, TextProps, TextStyle } from 'react-native'
 import useTheme from '../hooks/Theme.hook'
 
-type OTextProps = ComponentMetrics & TextProps & {
+type FTextProps = ComponentMetrics & TextProps & {
   children: string
   /**
    * Font weight bold
@@ -27,13 +27,13 @@ type OTextProps = ComponentMetrics & TextProps & {
 }
 
 /**
- * Orbit text component.
+ * Text component.
  * @example
- * <OText>Hello</OText>
- * <OText left={5} size={10}>World</OText>
- * <OText bold center color="red">!!</OText>
+ * <FText>Hello</FText>
+ * <FText left={5} size={10}>World</FText>
+ * <FText bold center color="red">!!</FText>
  */
-const OText = ({
+export default function FText({
   children,
   top = 0,
   right = 0,
@@ -45,7 +45,7 @@ const OText = ({
   size = 14,
   style,
   ...props
-}: OTextProps): JSX.Element => {
+}: FTextProps): JSX.Element {
   const colors = useTheme()
 
   const textStyle: TextStyle = {
@@ -56,10 +56,10 @@ const OText = ({
     marginTop: top,
     marginRight: right,
     marginBottom: bottom,
-    marginLeft: left
+    marginLeft: left,
   }
 
   return <Text style={[textStyle, style]} {...props}>{children}</Text>
 }
 
-export default OText
+// export default Text

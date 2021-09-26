@@ -5,12 +5,11 @@ import { screenHeight, screenWidth } from '../constants/Dimension.constant'
 import images from '../constants/Images.constant'
 import useTheme from '../hooks/Theme.hook'
 import useTranslation from '../hooks/Translation.hook'
-import OButton from '../components/OButton'
+import OButton from '../components/WFButton'
 import HStack from '../components/HStack'
-import OImage from '../components/OImage'
-import OText from '../components/OText'
-import OView from '../components/OView'
-
+import OImage from '../components/WFImage'
+import OText from '../components/WFText'
+import VStack from '../components/VStack'
 
 const LoginScreen = () => {
   const { t } = useTranslation()
@@ -19,10 +18,10 @@ const LoginScreen = () => {
   return (
     <ScrollView contentContainerStyle={{ height: screenHeight, width: screenWidth, backgroundColor: 'white' }} >
       <HStack top={screenHeight / 5} justify="center">
-        <OImage source={images.orbitLogo} width={dpi(54)} height={dpi(24)} resizeMode="contain" />
+        <OImage source={images.bgYamato} width={dpi(54)} height={dpi(24)} resizeMode="contain" />
       </HStack>
       <OText top={dpi(4)} size={dpi(17)} center bold>{t.global.welcome}</OText>
-      <OView top={screenHeight / 4} paddingHorizontal={dpi(12)} >
+      <VStack top={screenHeight / 4} paddingHorizontal={dpi(12)} >
         <OButton bottom={dpi(9)} label={t.global.login} onPress={() => {}} />
         <HStack bottom={dpi(8)} justify="center">
           <OText right={dpi(2)} size={dpi(6)}>{t.login.dontHaveOrbit}</OText>
@@ -31,14 +30,10 @@ const LoginScreen = () => {
           </TouchableOpacity>
         </HStack>
         <OText size={dpi(7)} color={colors.grey_100} center>{t.global.or}</OText>
-        <OView style={{ zIndex: 10 }}>
+        <VStack style={{ zIndex: 10 }}>
           <OButton top={dpi(4)} backgroundWhite label={t.login.buyOrbitFromOutlet} />
-        </OView>
-      </OView>
-      <OView style={{ position: 'absolute', bottom: 0 }}>
-        <OImage source={images.waveImage}
-          width={screenWidth} height={dpi(69)} resizeMode="stretch" />
-      </OView>
+        </VStack>
+      </VStack>
     </ScrollView>
   )
 }

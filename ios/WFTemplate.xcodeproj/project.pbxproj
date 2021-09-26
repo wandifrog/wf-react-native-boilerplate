@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* MiniOrbitTsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MiniOrbitTsTests.m */; };
-		09580A0C1167314C77CFB4F5 /* libPods-MiniOrbitTs-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D98652220F671943F91D0C /* libPods-MiniOrbitTs-tvOSTests.a */; };
+		00E356F31AD99517003FC87E /* WFTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WFTemplateTests.m */; };
+		09580A0C1167314C77CFB4F5 /* libPods-WFTemplate-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D98652220F671943F91D0C /* libPods-WFTemplate-tvOSTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		17A2E69024F4D0681EC36DC2 /* libPods-MiniOrbitTs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F5C06EEFB25A85B2211BBC /* libPods-MiniOrbitTs.a */; };
+		17A2E69024F4D0681EC36DC2 /* libPods-WFTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F5C06EEFB25A85B2211BBC /* libPods-WFTemplate.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* MiniOrbitTsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MiniOrbitTsTests.m */; };
-		2EA08B6A15D5C305F9353887 /* libPods-MiniOrbitTs-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 476C75D46090959397EB4B58 /* libPods-MiniOrbitTs-tvOS.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* WFTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WFTemplateTests.m */; };
+		2EA08B6A15D5C305F9353887 /* libPods-WFTemplate-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 476C75D46090959397EB4B58 /* libPods-WFTemplate-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		82DB63ABE9438DD081B746A7 /* libPods-MiniOrbitTs-MiniOrbitTsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7AC985A130A6CB0795E3F8F /* libPods-MiniOrbitTs-MiniOrbitTsTests.a */; };
+		82DB63ABE9438DD081B746A7 /* libPods-WFTemplate-WFTemplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7AC985A130A6CB0795E3F8F /* libPods-WFTemplate-WFTemplateTests.a */; };
 		B03B6F1C0D964B25B0E56935 /* Muli-Bold.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43F71D8E627F49F89B122717 /* Muli-Bold.svg */; };
 		F94EB6CEE7014B1B8A6029B6 /* Muli-Light.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2AA5F3F140B24A69A1DB7FBA /* Muli-Light.svg */; };
 		EFE5C87B1B5C42829DFC33C2 /* Muli-Medium.svg in Resources */ = {isa = PBXBuildFile; fileRef = D901C84A98A24EF396B973C6 /* Muli-Medium.svg */; };
@@ -44,43 +44,43 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = MiniOrbitTs;
+			remoteInfo = WFTemplate;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "MiniOrbitTs-tvOS";
+			remoteInfo = "WFTemplate-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* MiniOrbitTsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniOrbitTsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* WFTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* MiniOrbitTsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniOrbitTsTests.m; sourceTree = "<group>"; };
-		12693640346B9B19A6162998 /* Pods-MiniOrbitTs-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniOrbitTs-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MiniOrbitTs-tvOSTests/Pods-MiniOrbitTs-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* MiniOrbitTs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniOrbitTs.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MiniOrbitTs/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MiniOrbitTs/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MiniOrbitTs/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MiniOrbitTs/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MiniOrbitTs/main.m; sourceTree = "<group>"; };
-		29348066AA328F89E2EE8817 /* Pods-MiniOrbitTs-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniOrbitTs-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MiniOrbitTs-tvOS/Pods-MiniOrbitTs-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		2AB94A73D5BB74A81FC47B3C /* Pods-MiniOrbitTs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniOrbitTs.release.xcconfig"; path = "Target Support Files/Pods-MiniOrbitTs/Pods-MiniOrbitTs.release.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* MiniOrbitTs-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MiniOrbitTs-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* MiniOrbitTs-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MiniOrbitTs-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		39D98652220F671943F91D0C /* libPods-MiniOrbitTs-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MiniOrbitTs-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		476C75D46090959397EB4B58 /* libPods-MiniOrbitTs-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MiniOrbitTs-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		69F5C06EEFB25A85B2211BBC /* libPods-MiniOrbitTs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MiniOrbitTs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MiniOrbitTs/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9B42579C5B0CC31A656B08AA /* Pods-MiniOrbitTs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniOrbitTs.debug.xcconfig"; path = "Target Support Files/Pods-MiniOrbitTs/Pods-MiniOrbitTs.debug.xcconfig"; sourceTree = "<group>"; };
-		BDDCAD35F03E0F2C9FD03CE1 /* Pods-MiniOrbitTs-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniOrbitTs-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-MiniOrbitTs-tvOS/Pods-MiniOrbitTs-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		C948877CECB6D564CEE8859B /* Pods-MiniOrbitTs-MiniOrbitTsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniOrbitTs-MiniOrbitTsTests.release.xcconfig"; path = "Target Support Files/Pods-MiniOrbitTs-MiniOrbitTsTests/Pods-MiniOrbitTs-MiniOrbitTsTests.release.xcconfig"; sourceTree = "<group>"; };
-		D643FD1D02979A05AD958156 /* Pods-MiniOrbitTs-MiniOrbitTsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniOrbitTs-MiniOrbitTsTests.debug.xcconfig"; path = "Target Support Files/Pods-MiniOrbitTs-MiniOrbitTsTests/Pods-MiniOrbitTs-MiniOrbitTsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E7AC985A130A6CB0795E3F8F /* libPods-MiniOrbitTs-MiniOrbitTsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MiniOrbitTs-MiniOrbitTsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7BB035B1B570BB4520BBC15 /* Pods-MiniOrbitTs-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniOrbitTs-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-MiniOrbitTs-tvOSTests/Pods-MiniOrbitTs-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* WFTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFTemplateTests.m; sourceTree = "<group>"; };
+		12693640346B9B19A6162998 /* Pods-WFTemplate-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WFTemplate-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-WFTemplate-tvOSTests/Pods-WFTemplate-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* WFTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = WFTemplate/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = WFTemplate/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = WFTemplate/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = WFTemplate/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = WFTemplate/main.m; sourceTree = "<group>"; };
+		29348066AA328F89E2EE8817 /* Pods-WFTemplate-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WFTemplate-tvOS.release.xcconfig"; path = "Target Support Files/Pods-WFTemplate-tvOS/Pods-WFTemplate-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		2AB94A73D5BB74A81FC47B3C /* Pods-WFTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WFTemplate.release.xcconfig"; path = "Target Support Files/Pods-WFTemplate/Pods-WFTemplate.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* WFTemplate-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WFTemplate-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* WFTemplate-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WFTemplate-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D98652220F671943F91D0C /* libPods-WFTemplate-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WFTemplate-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		476C75D46090959397EB4B58 /* libPods-WFTemplate-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WFTemplate-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F5C06EEFB25A85B2211BBC /* libPods-WFTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WFTemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = WFTemplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B42579C5B0CC31A656B08AA /* Pods-WFTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WFTemplate.debug.xcconfig"; path = "Target Support Files/Pods-WFTemplate/Pods-WFTemplate.debug.xcconfig"; sourceTree = "<group>"; };
+		BDDCAD35F03E0F2C9FD03CE1 /* Pods-WFTemplate-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WFTemplate-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-WFTemplate-tvOS/Pods-WFTemplate-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C948877CECB6D564CEE8859B /* Pods-WFTemplate-WFTemplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WFTemplate-WFTemplateTests.release.xcconfig"; path = "Target Support Files/Pods-WFTemplate-WFTemplateTests/Pods-WFTemplate-WFTemplateTests.release.xcconfig"; sourceTree = "<group>"; };
+		D643FD1D02979A05AD958156 /* Pods-WFTemplate-WFTemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WFTemplate-WFTemplateTests.debug.xcconfig"; path = "Target Support Files/Pods-WFTemplate-WFTemplateTests/Pods-WFTemplate-WFTemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7AC985A130A6CB0795E3F8F /* libPods-WFTemplate-WFTemplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WFTemplate-WFTemplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7BB035B1B570BB4520BBC15 /* Pods-WFTemplate-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WFTemplate-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-WFTemplate-tvOSTests/Pods-WFTemplate-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		43F71D8E627F49F89B122717 /* Muli-Bold.svg */ = {isa = PBXFileReference; name = "Muli-Bold.svg"; path = "../src/assets/fonts/Muli/Muli-Bold.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
@@ -106,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82DB63ABE9438DD081B746A7 /* libPods-MiniOrbitTs-MiniOrbitTsTests.a in Frameworks */,
+				82DB63ABE9438DD081B746A7 /* libPods-WFTemplate-WFTemplateTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17A2E69024F4D0681EC36DC2 /* libPods-MiniOrbitTs.a in Frameworks */,
+				17A2E69024F4D0681EC36DC2 /* libPods-WFTemplate.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EA08B6A15D5C305F9353887 /* libPods-MiniOrbitTs-tvOS.a in Frameworks */,
+				2EA08B6A15D5C305F9353887 /* libPods-WFTemplate-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,20 +130,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09580A0C1167314C77CFB4F5 /* libPods-MiniOrbitTs-tvOSTests.a in Frameworks */,
+				09580A0C1167314C77CFB4F5 /* libPods-WFTemplate-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* MiniOrbitTsTests */ = {
+		00E356EF1AD99517003FC87E /* WFTemplateTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* MiniOrbitTsTests.m */,
+				00E356F21AD99517003FC87E /* WFTemplateTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = MiniOrbitTsTests;
+			path = WFTemplateTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -154,7 +154,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* MiniOrbitTs */ = {
+		13B07FAE1A68108700A75B9A /* WFTemplate */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -165,7 +165,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = MiniOrbitTs;
+			name = WFTemplate;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -173,10 +173,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				69F5C06EEFB25A85B2211BBC /* libPods-MiniOrbitTs.a */,
-				E7AC985A130A6CB0795E3F8F /* libPods-MiniOrbitTs-MiniOrbitTsTests.a */,
-				476C75D46090959397EB4B58 /* libPods-MiniOrbitTs-tvOS.a */,
-				39D98652220F671943F91D0C /* libPods-MiniOrbitTs-tvOSTests.a */,
+				69F5C06EEFB25A85B2211BBC /* libPods-WFTemplate.a */,
+				E7AC985A130A6CB0795E3F8F /* libPods-WFTemplate-WFTemplateTests.a */,
+				476C75D46090959397EB4B58 /* libPods-WFTemplate-tvOS.a */,
+				39D98652220F671943F91D0C /* libPods-WFTemplate-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -191,9 +191,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* MiniOrbitTs */,
+				13B07FAE1A68108700A75B9A /* WFTemplate */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* MiniOrbitTsTests */,
+				00E356EF1AD99517003FC87E /* WFTemplateTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				A15D608907181B997723E9E8 /* Pods */,
@@ -207,10 +207,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* MiniOrbitTs.app */,
-				00E356EE1AD99517003FC87E /* MiniOrbitTsTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* MiniOrbitTs-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* MiniOrbitTs-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* WFTemplate.app */,
+				00E356EE1AD99517003FC87E /* WFTemplateTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* WFTemplate-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* WFTemplate-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -218,14 +218,14 @@
 		A15D608907181B997723E9E8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9B42579C5B0CC31A656B08AA /* Pods-MiniOrbitTs.debug.xcconfig */,
-				2AB94A73D5BB74A81FC47B3C /* Pods-MiniOrbitTs.release.xcconfig */,
-				D643FD1D02979A05AD958156 /* Pods-MiniOrbitTs-MiniOrbitTsTests.debug.xcconfig */,
-				C948877CECB6D564CEE8859B /* Pods-MiniOrbitTs-MiniOrbitTsTests.release.xcconfig */,
-				BDDCAD35F03E0F2C9FD03CE1 /* Pods-MiniOrbitTs-tvOS.debug.xcconfig */,
-				29348066AA328F89E2EE8817 /* Pods-MiniOrbitTs-tvOS.release.xcconfig */,
-				12693640346B9B19A6162998 /* Pods-MiniOrbitTs-tvOSTests.debug.xcconfig */,
-				E7BB035B1B570BB4520BBC15 /* Pods-MiniOrbitTs-tvOSTests.release.xcconfig */,
+				9B42579C5B0CC31A656B08AA /* Pods-WFTemplate.debug.xcconfig */,
+				2AB94A73D5BB74A81FC47B3C /* Pods-WFTemplate.release.xcconfig */,
+				D643FD1D02979A05AD958156 /* Pods-WFTemplate-WFTemplateTests.debug.xcconfig */,
+				C948877CECB6D564CEE8859B /* Pods-WFTemplate-WFTemplateTests.release.xcconfig */,
+				BDDCAD35F03E0F2C9FD03CE1 /* Pods-WFTemplate-tvOS.debug.xcconfig */,
+				29348066AA328F89E2EE8817 /* Pods-WFTemplate-tvOS.release.xcconfig */,
+				12693640346B9B19A6162998 /* Pods-WFTemplate-tvOSTests.debug.xcconfig */,
+				E7BB035B1B570BB4520BBC15 /* Pods-WFTemplate-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -258,9 +258,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* MiniOrbitTsTests */ = {
+		00E356ED1AD99517003FC87E /* WFTemplateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MiniOrbitTsTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WFTemplateTests" */;
 			buildPhases = (
 				E94E78186BAFD4777B557B8A /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -273,14 +273,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = MiniOrbitTsTests;
-			productName = MiniOrbitTsTests;
-			productReference = 00E356EE1AD99517003FC87E /* MiniOrbitTsTests.xctest */;
+			name = WFTemplateTests;
+			productName = WFTemplateTests;
+			productReference = 00E356EE1AD99517003FC87E /* WFTemplateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* MiniOrbitTs */ = {
+		13B07F861A680F5B00A75B9A /* WFTemplate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MiniOrbitTs" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "WFTemplate" */;
 			buildPhases = (
 				E06080F6DDFD27206074181D /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -294,14 +294,14 @@
 			);
 			dependencies = (
 			);
-			name = MiniOrbitTs;
-			productName = MiniOrbitTs;
-			productReference = 13B07F961A680F5B00A75B9A /* MiniOrbitTs.app */;
+			name = WFTemplate;
+			productName = WFTemplate;
+			productReference = 13B07F961A680F5B00A75B9A /* WFTemplate.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* MiniOrbitTs-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* WFTemplate-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MiniOrbitTs-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "WFTemplate-tvOS" */;
 			buildPhases = (
 				5AD4447B50E12631D0F113EE /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -314,14 +314,14 @@
 			);
 			dependencies = (
 			);
-			name = "MiniOrbitTs-tvOS";
-			productName = "MiniOrbitTs-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* MiniOrbitTs-tvOS.app */;
+			name = "WFTemplate-tvOS";
+			productName = "WFTemplate-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* WFTemplate-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* MiniOrbitTs-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* WFTemplate-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MiniOrbitTs-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "WFTemplate-tvOSTests" */;
 			buildPhases = (
 				1CE48EB92523328ABE99959D /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -333,9 +333,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "MiniOrbitTs-tvOSTests";
-			productName = "MiniOrbitTs-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* MiniOrbitTs-tvOSTests.xctest */;
+			name = "WFTemplate-tvOSTests";
+			productName = "WFTemplate-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* WFTemplate-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -364,7 +364,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MiniOrbitTs" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "WFTemplate" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -377,10 +377,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* MiniOrbitTs */,
-				00E356ED1AD99517003FC87E /* MiniOrbitTsTests */,
-				2D02E47A1E0B4A5D006451C7 /* MiniOrbitTs-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* MiniOrbitTs-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* WFTemplate */,
+				00E356ED1AD99517003FC87E /* WFTemplateTests */,
+				2D02E47A1E0B4A5D006451C7 /* WFTemplate-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* WFTemplate-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -465,7 +465,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MiniOrbitTs-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WFTemplate-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -501,7 +501,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MiniOrbitTs-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WFTemplate-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -514,7 +514,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MiniOrbitTs-MiniOrbitTsTests/Pods-MiniOrbitTs-MiniOrbitTsTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-WFTemplate-WFTemplateTests/Pods-WFTemplate-WFTemplateTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -523,7 +523,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiniOrbitTs-MiniOrbitTsTests/Pods-MiniOrbitTs-MiniOrbitTsTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WFTemplate-WFTemplateTests/Pods-WFTemplate-WFTemplateTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BF4477C8BD02A79DCE21C39A /* [CP] Copy Pods Resources */ = {
@@ -532,7 +532,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MiniOrbitTs/Pods-MiniOrbitTs-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-WFTemplate/Pods-WFTemplate-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -541,7 +541,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiniOrbitTs/Pods-MiniOrbitTs-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WFTemplate/Pods-WFTemplate-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E06080F6DDFD27206074181D /* [CP] Check Pods Manifest.lock */ = {
@@ -559,7 +559,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MiniOrbitTs-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WFTemplate-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -581,7 +581,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MiniOrbitTs-MiniOrbitTsTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WFTemplate-WFTemplateTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -633,7 +633,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* MiniOrbitTsTests.m in Sources */,
+				00E356F31AD99517003FC87E /* WFTemplateTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,7 +659,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* MiniOrbitTsTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* WFTemplateTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,12 +668,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* MiniOrbitTs */;
+			target = 13B07F861A680F5B00A75B9A /* WFTemplate */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* MiniOrbitTs-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* WFTemplate-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -681,14 +681,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D643FD1D02979A05AD958156 /* Pods-MiniOrbitTs-MiniOrbitTsTests.debug.xcconfig */;
+			baseConfigurationReference = D643FD1D02979A05AD958156 /* Pods-WFTemplate-WFTemplateTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = MiniOrbitTsTests/Info.plist;
+				INFOPLIST_FILE = WFTemplateTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -698,17 +698,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniOrbitTs.app/MiniOrbitTs";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFTemplate.app/WFTemplate";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C948877CECB6D564CEE8859B /* Pods-MiniOrbitTs-MiniOrbitTsTests.release.xcconfig */;
+			baseConfigurationReference = C948877CECB6D564CEE8859B /* Pods-WFTemplate-WFTemplateTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = MiniOrbitTsTests/Info.plist;
+				INFOPLIST_FILE = WFTemplateTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -718,19 +718,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniOrbitTs.app/MiniOrbitTs";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFTemplate.app/WFTemplate";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B42579C5B0CC31A656B08AA /* Pods-MiniOrbitTs.debug.xcconfig */;
+			baseConfigurationReference = 9B42579C5B0CC31A656B08AA /* Pods-WFTemplate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = MiniOrbitTs/Info.plist;
+				INFOPLIST_FILE = WFTemplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -738,7 +738,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = MiniOrbitTs;
+				PRODUCT_NAME = WFTemplate;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -747,12 +747,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AB94A73D5BB74A81FC47B3C /* Pods-MiniOrbitTs.release.xcconfig */;
+			baseConfigurationReference = 2AB94A73D5BB74A81FC47B3C /* Pods-WFTemplate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = MiniOrbitTs/Info.plist;
+				INFOPLIST_FILE = WFTemplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -760,7 +760,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = MiniOrbitTs;
+				PRODUCT_NAME = WFTemplate;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -768,7 +768,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDDCAD35F03E0F2C9FD03CE1 /* Pods-MiniOrbitTs-tvOS.debug.xcconfig */;
+			baseConfigurationReference = BDDCAD35F03E0F2C9FD03CE1 /* Pods-WFTemplate-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -779,14 +779,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "MiniOrbitTs-tvOS/Info.plist";
+				INFOPLIST_FILE = "WFTemplate-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MiniOrbitTs-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.WFTemplate-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -796,7 +796,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29348066AA328F89E2EE8817 /* Pods-MiniOrbitTs-tvOS.release.xcconfig */;
+			baseConfigurationReference = 29348066AA328F89E2EE8817 /* Pods-WFTemplate-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -807,14 +807,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "MiniOrbitTs-tvOS/Info.plist";
+				INFOPLIST_FILE = "WFTemplate-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MiniOrbitTs-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.WFTemplate-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -824,7 +824,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12693640346B9B19A6162998 /* Pods-MiniOrbitTs-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 12693640346B9B19A6162998 /* Pods-WFTemplate-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -834,24 +834,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "MiniOrbitTs-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "WFTemplate-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MiniOrbitTs-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.WFTemplate-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniOrbitTs-tvOS.app/MiniOrbitTs-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFTemplate-tvOS.app/WFTemplate-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7BB035B1B570BB4520BBC15 /* Pods-MiniOrbitTs-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = E7BB035B1B570BB4520BBC15 /* Pods-WFTemplate-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -861,17 +861,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "MiniOrbitTs-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "WFTemplate-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MiniOrbitTs-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.WFTemplate-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniOrbitTs-tvOS.app/MiniOrbitTs-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFTemplate-tvOS.app/WFTemplate-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -992,7 +992,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MiniOrbitTsTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WFTemplateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1001,7 +1001,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MiniOrbitTs" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "WFTemplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1010,7 +1010,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MiniOrbitTs-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "WFTemplate-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1019,7 +1019,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MiniOrbitTs-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "WFTemplate-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1028,7 +1028,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MiniOrbitTs" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "WFTemplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

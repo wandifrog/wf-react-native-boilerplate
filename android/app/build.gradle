@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.miniorbitts"
+        applicationId "com.wftemplate"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

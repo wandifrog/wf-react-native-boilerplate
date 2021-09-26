@@ -2,25 +2,25 @@ import React from 'react'
 import { Image, ImageProps, ImageStyle } from 'react-native'
 import images from '../constants/Images.constant'
 
-type OImageProps = ComponentMetrics & ImageProps
+type WFImageProps = ComponentMetrics & ImageProps
 
 /**
  * Orbit image component.
  * @example
- * <OImage />
- * <OImage source={images.orbit} />
- * <OImage source={{uri: 'LINK_IMAGEE'}} />
+ * <WFImage />
+ * <WFImage source={images.orbit} />
+ * <WFImage source={{uri: 'LINK_IMAGEE'}} />
  */
-const OImage = ({
+const WFImage = ({
   top = 0,
   right = 0,
   bottom = 0,
   left = 0,
   height = 300,
   width = 300,
-  source = images.orbitLogo,
+  source = images.logoRaise,
   ...props
-}: OImageProps): JSX.Element => {
+}: WFImageProps): JSX.Element => {
 
   const imageStyle: ImageStyle = {
     marginTop: top,
@@ -35,4 +35,4 @@ const OImage = ({
     source={source} style={imageStyle} {...props} />
 }
 
-export default OImage
+export default WFImage

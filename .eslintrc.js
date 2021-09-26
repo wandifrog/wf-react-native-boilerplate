@@ -26,7 +26,7 @@ module.exports = {
     'prettier/prettier': OFF,
     'array-element-newline': [ERR, 'consistent'],
     'arrow-parens': [ERR, 'always'],
-    'comma-dangle': [ERR, 'only-multiline'],
+    'comma-dangle': [ERR, 'always-multiline'],
     'comma-spacing': [ERR, { 'before': false, 'after': true }],
     'curly': [ERR, 'multi'],
     'eol-last': [WRN, 'always'],

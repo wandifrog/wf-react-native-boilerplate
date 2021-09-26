@@ -1,15 +1,11 @@
-const languageIdCircle = require('../assets/images/language-id-circle.png')
-const orbitLogo = require('../assets/images/orbit-logo.png')
-const orbitLogo2x = require('../assets/images/orbit-logo-2x.png')
-const splashScreenWave = require('../assets/images/splash-screen-wave.png')
-const waveImage = require('../assets/images/wave-image.png')
+const bgYamato = require('../assets/images/bg-yamato.png')
+const dummyEventImage = require('../assets/images/dummy-event-image.jpg')
+const logoRaise = require('../assets/images/logo-raise.png')
 
 const images = {
-  languageIdCircle,
-  orbitLogo,
-  orbitLogo2x,
-  splashScreenWave,
-  waveImage
+  bgYamato,
+  dummyEventImage,
+  logoRaise,
 }
 
 export default images

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "MiniOrbitTs.app"
-               BlueprintName = "MiniOrbitTs"
-               ReferencedContainer = "container:MiniOrbitTs.xcodeproj">
+               BuildableName = "WFTemplate.app"
+               BlueprintName = "WFTemplate"
+               ReferencedContainer = "container:WFTemplate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "MiniOrbitTsTests.xctest"
-               BlueprintName = "MiniOrbitTsTests"
-               ReferencedContainer = "container:MiniOrbitTs.xcodeproj">
+               BuildableName = "WFTemplateTests.xctest"
+               BlueprintName = "WFTemplateTests"
+               ReferencedContainer = "container:WFTemplate.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "MiniOrbitTs.app"
-            BlueprintName = "MiniOrbitTs"
-            ReferencedContainer = "container:MiniOrbitTs.xcodeproj">
+            BuildableName = "WFTemplate.app"
+            BlueprintName = "WFTemplate"
+            ReferencedContainer = "container:WFTemplate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "MiniOrbitTs.app"
-            BlueprintName = "MiniOrbitTs"
-            ReferencedContainer = "container:MiniOrbitTs.xcodeproj">
+            BuildableName = "WFTemplate.app"
+            BlueprintName = "WFTemplate"
+            ReferencedContainer = "container:WFTemplate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
