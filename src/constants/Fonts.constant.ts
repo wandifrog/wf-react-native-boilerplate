@@ -1,12 +1,12 @@
 export const fontFamily = {
   /**
-   * Font Family: Pokemon Hollow
+   * Font Family: Poppins Regular
    */
-  pokemonHollow: 'Pokemon Hollow',
+  poppinsRegular: 'Poppins-Regular',
   /**
-   * Font Family: Pokemon Solid
+   * Font Family: Poppins SemiBold
    */
-  pokemonSolid: 'Pokemon Solid',
+  poppinsSemiBold: 'Poppins-SemiBold',
 }
 
 export const fontSize = {
