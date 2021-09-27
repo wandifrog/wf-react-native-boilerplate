@@ -28,7 +28,7 @@ const WFImage = ({
     marginBottom: bottom,
     marginLeft: left,
     width,
-    height
+    height,
   }
 
   return <Image width={width} height={height} fadeDuration={250}

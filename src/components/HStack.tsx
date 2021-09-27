@@ -67,7 +67,7 @@ const HStack = ({
     paddingHorizontal,
     paddingVertical,
     width,
-    ...style
+    ...style,
   }
 
   return <View style={flexRowStyle} {...props}>{children}</View>

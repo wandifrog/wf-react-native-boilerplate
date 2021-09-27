@@ -5,7 +5,7 @@ const initialState: AppState = {
   language: 'id',
   modemData: {},
   memberData: {},
-  screen: {} // screen || module || feature || flow
+  screen: {}, // screen || module || feature || flow
 }
 
 const AppStateContext = React.createContext<AppState | undefined>(undefined)

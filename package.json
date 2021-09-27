@@ -8,6 +8,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
     "release": "standard-version",
     "commit": "cz",
     "postinstall": "husky install"

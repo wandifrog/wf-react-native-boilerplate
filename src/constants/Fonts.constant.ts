@@ -6,7 +6,7 @@ export const fontFamily = {
   /**
    * Font Family: Pokemon Solid
    */
-  pokemonSolid: 'Pokemon Solid'
+  pokemonSolid: 'Pokemon Solid',
 }
 
 export const fontSize = {
@@ -21,5 +21,5 @@ export const fontSize = {
   /**
    * Font Size: 11px
    */
-  small: 11
+  small: 11,
 }
