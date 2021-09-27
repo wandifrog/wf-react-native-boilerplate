@@ -50,7 +50,7 @@ export default function FText({
 
   const textStyle: TextStyle = {
     color: color || colors.text,
-    fontFamily: bold ? 'Muli-Bold' : 'Muli-Regular',
+    fontFamily: bold ? 'Poppins-SemiBold' : 'Poppins-Regular',
     fontSize: size,
     textAlign: center ? 'center' : undefined,
     marginTop: top,
