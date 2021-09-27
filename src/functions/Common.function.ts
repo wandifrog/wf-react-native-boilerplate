@@ -1,8 +1,3 @@
-// TODO: JSDocs
-export function gacha(): boolean {
-  return Math.random() < 0.5
-}
-
 /**
  * @example <caption>Example usage of this function.</caption>
  * capitalizeEveryWord('batu ampar condet')
@@ -25,11 +20,6 @@ export function capitalizeEveryWord(sentence: string): string {
 }
 
 // TODO: JSDocs
-export function dpi(x: number) {
-  return x * 2
-}
-
-// TODO: JSDocs
-export function arrayIsEmpty(arr: any[]) {
+export function arrayIsEmpty(arr: any[]) { // eslint-disable-line @typescript-eslint/no-explicit-any
   return arr.length === 0
 }
