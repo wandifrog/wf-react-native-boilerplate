@@ -10,7 +10,7 @@ import WFImage from '../components/WFImage'
 import WFText from '../components/WFText'
 import VStack from '../components/VStack'
 
-const LoginScreen = () => {
+const CreateEventScreen = () => {
   const { t } = useTranslation()
   const colors = useTheme()
 
@@ -29,4 +29,4 @@ const LoginScreen = () => {
   )
 }
 
-export default LoginScreen
+export default CreateEventScreen

@@ -10,7 +10,7 @@ import WFImage from '../components/WFImage'
 import WFText from '../components/WFText'
 import VStack from '../components/VStack'
 
-const LoginScreen = () => {
+const HomeScreen = () => {
   const { t } = useTranslation()
   const colors = useTheme()
 
@@ -22,11 +22,11 @@ const LoginScreen = () => {
       <VStack top={10} paddingHorizontal={12} align="center" >
         <WFText top={8} size={34} bold>{t.global.welcome}</WFText>
         <WFText top={4} size={20}>{t.global.welcome}</WFText>
-        <WFButton bottom={9} label={'Ganti Bahasa'} onPress={() => { }} />
-        <WFButton bottom={9} label={'Ganti Tema'} onPress={() => { }} />
+        <WFButton top={18} label={'Ganti Bahasa'} onPress={() => { }} />
+        <WFButton top={18} label={'Ganti Tema'} onPress={() => { }} />
       </VStack>
     </ScrollView>
   )
 }
 
-export default LoginScreen
+export default HomeScreen
