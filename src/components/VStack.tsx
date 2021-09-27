@@ -33,8 +33,8 @@ type VStackProps = ComponentMetrics & {
  * Vertical Stack component.
  * @example
  * <VStack>
- *   <OText>Hello</OText>
- *   <OText>wWrld</OText>
+ *   <WFText>Hello</WFText>
+ *   <WFText>wWrld</WFText>
  * </VStack>
  */
 const VStack = ({

@@ -5,10 +5,6 @@ const globalTranslation = {
      */
     errorSystem: 'Terjadi kesalahan pada sistem',
     /**
-     * - ID: Beli Sekarang
-     */
-    buyNow: 'Beli Sekarang',
-    /**
      * - ID: Masuk
      */
     login: 'Masuk',
@@ -26,10 +22,6 @@ const globalTranslation = {
      * - EN: An error occurred with the system
      */
     errorSystem: 'An error occurred with the system',
-    /**
-     * - EN: Buy Now
-     */
-    buyNow: 'Buy Now',
     /**
      * - EN: Login
      */

@@ -2,14 +2,12 @@ import React from 'react'
 import { Image, Text, View } from 'react-native'
 import images from './constants/Images.constant'
 
-
 /**
- * Splash Screen
+ * Splash or Launch - Screen
  */
 export default function SplashScreen() {
-  // only use native components
 
-  return (
+  return ( // dont'use WF components
     <View style={{
       position: 'relative',
       width: '100%',

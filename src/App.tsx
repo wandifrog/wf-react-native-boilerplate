@@ -7,7 +7,7 @@ const App = () => {
   const [splashScreen, setSplashScreen] = React.useState(true)
 
   React.useEffect(() => {
-    setTimeout(() => setSplashScreen(false), 2400)
+    setTimeout(() => setSplashScreen(false), 1200)
   }, [])
 
   return (

@@ -33,8 +33,8 @@ type HStackProps = ComponentMetrics & {
  * Horizontal Stack component.
  * @example
  * <HStack>
- *   <OText>Hello</OText>
- *   <OText>wWrld</OText>
+ *   <WFText>Hello</WFText>
+ *   <WFText>wWrld</WFText>
  * </HStack>
  */
 const HStack = ({

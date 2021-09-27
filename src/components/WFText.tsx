@@ -33,7 +33,7 @@ type FTextProps = ComponentMetrics & TextProps & {
  * <FText left={5} size={10}>World</FText>
  * <FText bold center color="red">!!</FText>
  */
-export default function FText({
+const WFText = ({
   children,
   top = 0,
   right = 0,
@@ -45,7 +45,7 @@ export default function FText({
   size = 14,
   style,
   ...props
-}: FTextProps): JSX.Element {
+}: FTextProps): JSX.Element => {
   const colors = useTheme()
 
   const textStyle: TextStyle = {
@@ -62,4 +62,4 @@ export default function FText({
   return <Text style={[textStyle, style]} {...props}>{children}</Text>
 }
 
-// export default Text
+export default WFText
