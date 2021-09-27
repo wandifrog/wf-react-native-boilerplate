@@ -1,5 +1,6 @@
 import React from 'react'
 import { Text, TextProps, TextStyle } from 'react-native'
+import { fontFamily, fontSize } from '../constants/Fonts.constant'
 import useTheme from '../hooks/Theme.hook'
 
 type FTextProps = ComponentMetrics & TextProps & {
@@ -21,7 +22,7 @@ type FTextProps = ComponentMetrics & TextProps & {
    */
   size?: number
   /**
-   * Line Height
+   * Line height
    */
   lineHeight?: number
 }
@@ -42,7 +43,7 @@ const WFText = ({
   bold = false,
   center = false,
   color,
-  size = 14,
+  size = fontSize.normal,
   style,
   ...props
 }: FTextProps): JSX.Element => {
@@ -50,7 +51,7 @@ const WFText = ({
 
   const textStyle: TextStyle = {
     color: color || colors.text,
-    fontFamily: bold ? 'Poppins-SemiBold' : 'Poppins-Regular',
+    fontFamily: bold ? fontFamily.poppinsSemiBold : fontFamily.poppinsSemiBold,
     fontSize: size,
     textAlign: center ? 'center' : undefined,
     marginTop: top,

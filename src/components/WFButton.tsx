@@ -1,13 +1,10 @@
 import React from 'react'
 import { ActivityIndicator, TouchableOpacity, ViewStyle } from 'react-native'
+import { color } from 'react-native-reanimated'
 import useTheme from '../hooks/Theme.hook'
 import WFText from './WFText'
 
 type WFButtonProps = ComponentMetrics & {
-  /**
-   * Button with white background
-   */
-  backgroundWhite?: boolean
   /**
    * Button label
    */
@@ -30,28 +27,32 @@ type WFButtonProps = ComponentMetrics & {
  * Button component.
  * @example
  * <WFButton />
- * <WFButton backgroundWhite />
- * <WFButton label="Lanjutkan" />
+ * <WFButton label="Hello" />
  * <WFButton label="Mengerti" onPress={() => alert('hello world')} />
  * <WFButton label="Aktivasi" loading />
  * <WFButton label="Aktivasi" disabled />
  */
 const WFButton = ({
   top,
+  right,
   bottom,
+  left,
   label = 'Button',
   onPress = () => {},
   loading = false,
   disabled = false,
 }: WFButtonProps): JSX.Element => {
-  const colors = useTheme()
-
   if (loading) disabled = true
+
+  const colors = useTheme()
+  const textColor = disabled ? colors.textDisabled : colors.text
 
   const buttonStyle: ViewStyle = {
     marginTop: top,
+    marginRight: right,
     marginBottom: bottom,
-    backgroundColor: disabled ? 'gray' : '#39CCDC',
+    marginLeft: left,
+    backgroundColor: disabled ? colors.buttonDisabled : colors.button,
     borderRadius: 17,
     alignItems: 'center',
     justifyContent: 'center',
@@ -64,8 +65,8 @@ const WFButton = ({
     <TouchableOpacity style={buttonStyle} onPress={() => onPress()} disabled={disabled}>
       {
         loading
-          ? <ActivityIndicator color={colors.white_100} />
-          : <WFText size={17} color={'#30294C'} center bold>{label}</WFText>
+          ? <ActivityIndicator color={textColor} />
+          : <WFText size={17} color={textColor} center bold>{label}</WFText>
       }
     </TouchableOpacity>
   )
