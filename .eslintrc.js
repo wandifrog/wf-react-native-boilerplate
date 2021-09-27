@@ -34,7 +34,7 @@ module.exports = {
     'indent': [ERR, 2, { 'SwitchCase': 1 }],
     'key-spacing': [ERR, { 'beforeColon': false }],
     'no-alert': OFF,
-    'no-console': WRN,
+    'no-console': OFF,
     'no-multi-spaces': [ERR],
     'no-multiple-empty-lines': [ERR, { 'max': 2 }],
     'object-curly-spacing': [ERR, 'always'],
