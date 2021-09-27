@@ -1,5 +1,5 @@
 {
-  "name": "WFTemplate",
+  "name": "@wandifrog/react-native-template",
   "version": "0.0.2",
   "private": true,
   "scripts": {
