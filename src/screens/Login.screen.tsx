@@ -9,23 +9,24 @@ import HStack from '../components/HStack'
 import WFImage from '../components/WFImage'
 import WFText from '../components/WFText'
 import VStack from '../components/VStack'
+import Spacer from '../components/Spacer'
 
 const LoginScreen = () => {
   const { t } = useTranslation()
   const colors = useTheme()
 
   return (
-    <ScrollView contentContainerStyle={{ height: screenHeight, width: screenWidth, backgroundColor: colors.background }} >
-      <HStack top={screenHeight / 12} justify="center">
-        <WFImage source={images.logoRaise} width={150} height={150} resizeMode="contain" />
+    <VStack align="center">
+      <HStack top={50}>
+        <WFImage source={images.logoRaise} width={76} height={76} resizeMode="contain" />
+        <WFText left={8} size={18}>Raise</WFText>
       </HStack>
-      <VStack top={10} paddingHorizontal={12} align="center" >
-        <WFText top={8} size={34} bold>{t.global.welcome}</WFText>
-        <WFText top={4} size={20}>{t.global.welcome}</WFText>
-        <WFButton bottom={9} label={'Ganti Bahasa'} onPress={() => { }} />
-        <WFButton bottom={9} label={'Ganti Tema'} onPress={() => { }} />
-      </VStack>
-    </ScrollView>
+      <WFText top={8} size={18}>{'kk cc, login dulu yaa >_<'}</WFText>
+      <WFText top={4} size={20}>{t.global.welcome}</WFText>
+      <Spacer />
+      <WFButton bottom={20} label={'Login'} onPress={() => { }} />
+      <Spacer />
+    </VStack>
   )
 }
 
