@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { ReactNode, ReactNodeArray } from 'react'
 import { FlexAlignType, View, ViewStyle } from 'react-native'
 
 type VStackProps = ComponentMetrics & {
-  children: React.ReactNodeArray & ReactNodeV2[]
+  children: ReactNode
   /**
    * Align items
    */
@@ -27,14 +27,6 @@ type VStackProps = ComponentMetrics & {
    * Style
    */
   style?: ViewStyle
-}
-
-type NodeType = {
-  name: string
-}
-
-type ReactNodeV2 = {
-  type: NodeType
 }
 
 /**

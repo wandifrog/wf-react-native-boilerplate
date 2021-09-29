@@ -1,5 +1,5 @@
 import React from 'react'
-import { ScrollView } from 'react-native'
+import { SafeAreaView, ScrollView } from 'react-native'
 import { screenHeight, screenWidth } from '../constants/Dimension.constant'
 import images from '../constants/Images.constant'
 import useTheme from '../hooks/Theme.hook'
@@ -24,8 +24,8 @@ const LoginScreen = () => {
       <WFText top={8} size={18}>{'kk cc, login dulu yaa >_<'}</WFText>
       <WFText top={4} size={20}>{t.global.welcome}</WFText>
       <Spacer />
-      <WFButton bottom={20} label={'Login'} onPress={() => { }} />
-      <Spacer />
+      <WFButton bottom={0} label={'Login'} onPress={() => { }} />
+      {/* <Spacer /> */}
     </VStack>
   )
 }
