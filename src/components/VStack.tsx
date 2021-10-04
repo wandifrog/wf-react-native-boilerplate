@@ -55,7 +55,7 @@ const VStack = ({
 }: VStackProps): JSX.Element => {
 
   // @ts-expect-error: Let's ignore a compile error like this unreachable code
-  const flex = children.some((reactNode) => reactNode?.type.name === 'Spacer' ?? false) ? 1 : undefined
+  const flex = Array.isArray(children?.valueOf()) ? children.some((reactNode) => reactNode?.type.name === 'Spacer' ?? false) : undefined
 
   const flexRowStyle: ViewStyle = {
     marginTop: top,

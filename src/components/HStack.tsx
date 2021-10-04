@@ -2,7 +2,7 @@ import React from 'react'
 import { FlexAlignType, View, ViewStyle } from 'react-native'
 
 type HStackProps = ComponentMetrics & {
-  children: React.ReactNodeArray
+  children: React.ReactNode
   /**
    * Align items
    */
@@ -55,7 +55,7 @@ const HStack = ({
 }: HStackProps): JSX.Element => {
 
   // @ts-expect-error: Let's ignore a compile error like this unreachable code
-  const flex = children.some((reactNode) => reactNode?.type.name === 'Spacer' ?? false) ? 1 : undefined
+  const flex = Array.isArray(children?.valueOf()) ? children.some((reactNode) => reactNode?.type.name === 'Spacer' ?? false) : undefined
 
   const flexRowStyle: ViewStyle = {
     marginTop: top,
