@@ -17,15 +17,19 @@ const LoginScreen = () => {
 
   return (
     <VStack align="center">
-      <HStack top={50}>
-        <WFImage source={images.logoRaise} width={76} height={76} resizeMode="contain" />
-        <WFText left={8} size={18}>Raise</WFText>
-      </HStack>
-      <WFText top={8} size={18}>{'kk cc, login dulu yaa >_<'}</WFText>
-      <WFText top={4} size={20}>{t.global.welcome}</WFText>
-      <Spacer />
-      <WFButton bottom={0} label={'Login'} onPress={() => { }} />
-      {/* <Spacer /> */}
+      <WFText left={8} size={18}>Raise</WFText>
+      <SafeAreaView>
+        <HStack top={50}>
+          <WFImage source={images.logoRaise} width={76} height={76} resizeMode="contain" />
+          <Spacer />
+          <WFText left={8} size={18}>Raise</WFText>
+        </HStack>
+        <WFText top={8} size={18}>{'kk cc, login dulu yaa >_<'}</WFText>
+        <WFText top={4} size={20}>{t.global.welcome}</WFText>
+        <Spacer />
+        <WFButton bottom={0} label={'Login'} onPress={() => { }} />
+        {/* <Spacer /> */}
+      </SafeAreaView>
     </VStack>
   )
 }

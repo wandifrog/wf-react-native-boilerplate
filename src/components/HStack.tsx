@@ -54,16 +54,12 @@ const HStack = ({
   ...props
 }: HStackProps): JSX.Element => {
 
-  // @ts-expect-error: Let's ignore a compile error like this unreachable code
-  const flex = Array.isArray(children?.valueOf()) ? children.some((reactNode) => reactNode?.type.name === 'Spacer' ?? false) : undefined
-
   const flexRowStyle: ViewStyle = {
     marginTop: top,
     marginRight: right,
     marginBottom: bottom,
     marginLeft: left,
     alignItems: align,
-    flex,
     flexDirection: 'row',
     height,
     justifyContent: justify,

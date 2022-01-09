@@ -1,4 +1,4 @@
-import React, { ReactNode, ReactNodeArray } from 'react'
+import React, { ReactNode } from 'react'
 import { FlexAlignType, View, ViewStyle } from 'react-native'
 
 type VStackProps = ComponentMetrics & {
@@ -54,8 +54,9 @@ const VStack = ({
   ...props
 }: VStackProps): JSX.Element => {
 
+  // const reactNodeIsArray = Array.isArray(children?.valueOf())
   // @ts-expect-error: Let's ignore a compile error like this unreachable code
-  const flex = Array.isArray(children?.valueOf()) ? children.some((reactNode) => reactNode?.type.name === 'Spacer' ?? false) : undefined
+  const flex = reactNodeIsArray ? children.some((reactNode) => reactNode?.type.name === 'Spacer') ? 1 : undefined : undefined
 
   const flexRowStyle: ViewStyle = {
     marginTop: top,
@@ -63,8 +64,8 @@ const VStack = ({
     marginBottom: bottom,
     marginLeft: left,
     alignItems: align,
-    flex,
     flexDirection: 'column',
+    flex,
     height,
     justifyContent: justify,
     padding,
